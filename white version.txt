@@ -1,0 +1,20 @@
+header nav a{
+    color:#434345;
+    transition: letter-spacing 1s, color 1.5s, font-weight 1.5s;
+}
+
+header nav a:hover, header .nav a:focus{
+    color: #054C45;
+    /* font-weight: bold; */
+    letter-spacing: 0.2rem;
+}
+
+.navigation span{
+    color: #054C45;
+}
+
+.mobile-nav-icon{
+    color: #054C45;
+    font-size:1.5rem;
+    display:none;
+}

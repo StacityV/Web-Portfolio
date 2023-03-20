@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    /* border:1px solid red; */
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url("../font/Ubuntu-Regular.ttf");
+}
+
+body{
+    font-family: Ubuntu;
+    background-color:#2a2a2b;
+    color:#fff;
+    font-size:0.8rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-size:0.9rem;
+    line-height:1.5;
+}
+
+a.text_link_underline{
+    position:relative;
+}
+
+a.text_link_underline:after{
+    content:"";
+    position:absolute;
+    width:0;
+    height:1rem;
+    top:0;
+    left:0;
+    border-bottom:1px solid #87EBCF;
+    transition: width 0.5s;
+}
+
+a.text_link_underline:hover:after, a.text_link_underline:focus{
+    width:100%
+}
+
+a.common_btn{
+    font-size:0.8rem;
+    /* border:1px solid rgb(143,235,217); */
+    border-radius:5px;
+    padding:1em 1.2em;
+    /* background-color:rgb(14,25,46); */
+    transition: background-color 1s;
+    /* color: rgb(143,235,217); */
+}
+
+/* a.common_btn:hover, a.common_btn:focus{
+    background-color:rgb(28,48,63);
+} */
+
+.navigation>div:nth-of-type(1){
+    padding-top: 0.8rem;
+}
+
+ul{
+    margin:0;
+    margin-left:1rem;
+    padding:0;
+    line-height: 2;
+    text-align: center;
+}
+
+/* header section start */
+header{
+    display:flex;
+    justify-content: space-between;
+    padding:3rem;
+}
+
+
+header .logo{
+    color: #87EBCF;
+    font-size:1.2rem;
+    margin: 0;
+    padding: 0;
+}
+
+header .navigation{
+    display:flex;
+    justify-content: space-around;
+}
+
+header .navigation ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    font-size:0.8rem;
+}
+
+header .navigation li{
+    margin-right:2rem;
+    display:inline;
+}
+
+.text_link_animation{
+    color:rgb(220,220,220);
+    transition: letter-spacing 1s, color 1.5s, font-weight 1.5s;
+}
+
+.text_link_animation:hover, .text_link_animation:focus{
+    /* color: #F56042; */
+    /* font-weight: bold; */
+    letter-spacing: 0.2rem;
+}
+
+.navigation span{
+    color: #87EBCF;
+}
+
+.mobile-nav-icon{
+    color: #87EBCF;
+    font-size:1.5rem;
+    display:none;
+}
+
+img{
+    width:100%;
+}
+
+@media screen and (max-width:800px) {
+    .mobile-nav-icon{
+        display:block;
+    }
+
+     .navigation div{
+        display: none;
+       
+    } 
+
+    header{
+        flex-direction: column;
+    }
+
+    header nav{
+        width:100%;
+    }
+
+    header nav ul{
+        width:100%;
+        border:1px solid green;
+    }
+
+    header .navigation li{
+        display:block;
+    }
+}
+
+
