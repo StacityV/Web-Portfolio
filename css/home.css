@@ -1,9 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+
+@font-face {
+    font-family: 'Ubuntu', sans-serif;
+    src: url("../font/Ubuntu/Ubuntu-Regular.ttf");
+}
+
 h1 {
+    font-family: "Cormorant Garamond", serif;
     font-size: 4rem;
     font-weight: bold;
     color: white;
+    letter-spacing: 0.7rem;
 }
 
 main {
@@ -83,6 +92,15 @@ a.checkout_btn:focus {
     display: flex;
     justify-content: space-between;
     gap: 3rem;
+}
+
+.my_info_detail p a{
+    font-size: 1rem;
+    color: #38978e;
+}
+
+.my_info p{
+    font-size: 1rem;
 }
 
 #my_info .left {

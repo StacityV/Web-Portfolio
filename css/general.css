@@ -4,11 +4,6 @@
 }
 
 @font-face {
-    font-family: 'Ubuntu', sans-serif;
-    src: url("../font/Ubuntu/Ubuntu-Regular.ttf");
-}
-
-@font-face {
     font-family: 'Bebas Neue', sans-serif;
     src: url("../font/Bebas_Neue/BebasNeue-Regular.ttf");
 }
@@ -110,14 +105,21 @@ header .navigation li{
 
 .text_link_animation{
     color:rgb(220,220,220);
-    letter-spacing: 0.5em;
     font-size: 0.5rem;
-    transition: letter-spacing 1s, color 1.5s, font-weight 1.5s;
+    transition: color 1.5s, font-weight 1.5s;
 }
 
 .text_link_animation:hover, .text_link_animation:focus{
     /* color: #F56042; */
     /* font-weight: bold; */
+}
+
+.text_link_animation_spacing{
+    letter-spacing: 0.5em;
+    transition: letter-spacing 1s;
+}
+
+.text_link_animation_spacing:hover, .text_link_animation_spacing:focus{
     letter-spacing: 0.7em;
 }
 
