@@ -111,18 +111,20 @@ header .navigation li{
 .text_link_animation{
     color:rgb(220,220,220);
     letter-spacing: 0.5em;
+    font-size: 0.5rem;
     transition: letter-spacing 1s, color 1.5s, font-weight 1.5s;
 }
 
 .text_link_animation:hover, .text_link_animation:focus{
     /* color: #F56042; */
     /* font-weight: bold; */
-    letter-spacing: 0.6em;
+    letter-spacing: 0.7em;
 }
 
 .navigation span{
     color: #87EBCF;
-    letter-spacing: 0.6em;
+    font-size: 0.5rem;
+    letter-spacing: 0.7em;
 }
 
 .mobile-nav-icon{
