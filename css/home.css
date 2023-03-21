@@ -30,7 +30,6 @@ main {
     align-items: center;
 }
 
-
 .about_me div {
     margin-top: 4rem;
 }
@@ -86,6 +85,10 @@ a.checkout_btn:focus {
 
 .language li {
     list-style-type: circle;
+}
+
+.my_info{
+    height: 85vh;
 }
 
 .my_info_detail {
