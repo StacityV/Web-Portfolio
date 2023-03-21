@@ -3,8 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <title>Minyang Zhang</title>
+    <link rel="shortcut icon" href="images/Logo_B.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/text_animation.css" rel="stylesheet">
+    <link href="css/background.css" rel="stylesheet">
     <link href="css/general.css" rel="stylesheet" />
     <link href="css/home.css" rel="stylesheet" />
     <script
@@ -16,19 +19,20 @@
   </head>
 
   <body>
+    <div id="particles-js"></div>
     <header>
       <div class="logo">
         <a href="Home.html">
-          <img src="images/Logo_W.png" alt="logo_image">
+          <img src="images/Logo_G.png" alt="logo_image">
         </a>
       </div>
       <div class="navigation">
         <nav>
           <ul>
-            <li><span>01.</span> <a href="#about" class="text_link_underline text_link_animation">About</a></li>
-            <li><span>02.</span> <a href="" class="text_link_underline text_link_animation">Experience</a></li>
-            <li><span>03.</span> <a href="" class="text_link_underline text_link_animation">Project</a></li>
-            <li><span>04.</span> <a href="" class="text_link_underline text_link_animation">Contact</a></li>
+            <li><span>01.</span> <a href="#about" class="text_link_underline text_link_animation">ABOUT</a></li>
+            <li><span>02.</span> <a href="" class="text_link_underline text_link_animation">EXPERIENCE</a></li>
+            <li><span>03.</span> <a href="" class="text_link_underline text_link_animation">PROJECT</a></li>
+            <li><span>04.</span> <a href="" class="text_link_underline text_link_animation">CONTACT</a></li>
           </ul>
         </nav>
         <!-- <div><a href="" class="common_btn resume_btn">Resume</a></div> -->
@@ -37,30 +41,25 @@
     <main>
       <div class="about_me">
         <h1>
-          <span>Hi, I am</span>Minyang Zhang.<br />
-          <span>An SFU IAT Undergraduate Student.</span>
+          <!-- <span>Hi, I am</span> -->
+          Minyang Zhang.<br />
+          <!-- <span>An SFU IAT Undergraduate Student.</span> -->
         </h1>
-        <p>
-          I'm a SFU undergrads student who specializing in material design and UI/UX design.
-          Currently, I am focusing on web design to enhance my coding skill and expand my scope
-          of work. For more spec of my design style, here is a demo website for a second hand 
-          electronic product trade company, 
-          <a href="" class="text_link_underline text_link_animation">TeCycle</a>.
-        </p>
-        <div><a class="common_btn checkout_btn">ALL PROJECT</a></div>
+        <div class="text">An <span>SFU</span> IAT Undergraduate Student.<b></b></div>
       </div>
 
 
-      <section id="my_info">
+      <section id="my_info" class="my_info">
         <h2><span>01.</span> About Me</h2>
         <div class="my_info_detail">
-            <div class="left">
-                <p>
-                Hello! My name is Brittany and I enjoy creating things that live on
-                the internet. My interest in web development started back in 2012 when
-                I decided to try editing custom Tumblr themes — turns out hacking
-                together a custom reblog button taught me a lot about HTML & CSS!
-                </p>
+          <div class="left">
+            <p>
+              I'm a SFU undergrads student who specializing in material design and UI/UX design.
+              Currently, I am focusing on web design to enhance my coding skill and expand my scope
+              of work. For more spec of my design style, here is a demo website for a second hand
+              electronic product trade company,
+              <a href="" class="text_link_underline text_link_animation">TeCycle</a>.
+            </p>
     
                 <p>
                 Fast-forward to today, and I’ve had the privilege of working at
@@ -99,4 +98,7 @@
     </main>
     <footer></footer>
   </body>
+  <script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
+<script src='https://threejs.org/examples/js/libs/stats.min.js'></script><script 
+ src="js/script.js"></script>
 </html>

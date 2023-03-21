@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+
 h1 {
     font-size: 4rem;
     font-weight: bold;
@@ -16,28 +19,24 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
 }
 
-.about_me span:nth-of-type(1) {
-    display: block;
-    /* border-top: 0.2rem solid red; */
-    /* border */
-    padding-top: 0.8rem;
-    font-size: 1rem;
-    font-weight: noraml;
-    color: #87EBCF;
-    display: block;
-}
-
-.about_me span:nth-of-type(2) {
-    font-size: 2rem;
-    color: rgba(175, 175, 175, 0.85);
-}
 
 .about_me div {
     margin-top: 4rem;
 }
+
+.about_me div:nth-of-type(1){
+    font-weight: 400;
+    max-width: 600px;
+    font-size: 1rem;
+}
+
+.about_me div:nth-of-type(1) span{
+    color: #D4504E;
+}
+
 
 .about_me p a {
     color: #87EBCF;

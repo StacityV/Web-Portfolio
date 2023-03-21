@@ -4,12 +4,19 @@
 }
 
 @font-face {
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
     src: url("../font/Ubuntu-Regular.ttf");
 }
 
+@font-face {
+    font-family: 'Bebas Neue', sans-serif;
+    src: url("../font/Bebas_Neue/BebasNeue-Regular.ttf");
+}
+
+
+
 body{
-    font-family: Ubuntu;
+    font-family: Bebas Neue;
     background-color:#2a2a2b;
     color:#fff;
     font-size:0.8rem;
@@ -103,17 +110,19 @@ header .navigation li{
 
 .text_link_animation{
     color:rgb(220,220,220);
+    letter-spacing: 0.5em;
     transition: letter-spacing 1s, color 1.5s, font-weight 1.5s;
 }
 
 .text_link_animation:hover, .text_link_animation:focus{
     /* color: #F56042; */
     /* font-weight: bold; */
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.6em;
 }
 
 .navigation span{
     color: #87EBCF;
+    letter-spacing: 0.6em;
 }
 
 .mobile-nav-icon{
