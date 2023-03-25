@@ -1,0 +1,174 @@
+h2{
+  color:#424245
+}
+/* page title end */
+.about_us_text {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+}
+/* about_mission */
+.about_mission_content{
+
+  margin: 0rem;
+  margin-bottom: 3.5rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #e4e4e4;
+  border-radius: 1rem;
+  color: #424245;
+  /* text-align: center; */
+}
+/* about_mission end*/
+/* about_team */
+.about_team{
+  
+  margin: 0 0.5rem;
+  margin-top: 0rem;
+  padding: 3rem;
+  margin-bottom: 0rem;
+}
+.about_team_all{
+  gap: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0rem;
+
+}
+/* .about_team *{
+border: 1px solid red;
+} */
+h2{
+  text-align: center;
+}
+.about_team_image{
+  /* max-width: 25rem; */
+  /* min-width: 20rem; */
+  width: 45%;
+  border-radius: 1rem;
+  margin: auto;
+  margin-top: 0rem;
+  margin-bottom: 4rem;
+  flex: 1;
+  /* border: 1px solid red; */
+}
+.about_team_content{
+  /* min-width: 20rem; */
+  color: #424245;
+  width: 45%;
+  text-align: left;
+  flex: 1;
+}
+/* about_team end*/
+img {
+  margin-top: 0rem;
+  width: 100%;
+  border-radius: 10px;
+}
+/* about_audience */
+.about_audience_content{
+  margin: 0 0.5rem;
+  padding: 3rem;
+  /* padding: 2rem; */
+  /* text-align: center; */
+  /* background-color: #424245; */
+  color: #424245;
+}
+
+/* about_audience end*/
+@media (max-width: 900px) {
+  .about_mission_content{
+    padding: 2rem;
+  }
+  .about_team{
+    flex-direction: column;
+  }
+  .about_team_content{
+    width: 100%;
+    /* text-align: left; */
+  }
+  .about_team_image{
+    width: 100%;
+    margin-top: 3rem;
+  }
+}
+@media (max-width: 850px) {
+  .about_team{
+    padding: 1rem;
+    /* border: 1px solid red; */
+    
+  }
+  .about_team_all{
+    flex-direction: column;
+  }
+  .about_audience_content{
+    padding: 1rem;
+  }
+  /* .about_mission_content{
+    padding: 2rem;
+  } */
+}
+/* Contact us */
+.Contact_us {
+  background-color: #e4e4e4;
+  border-radius: 1rem;
+  color: #424245;
+  padding: 1rem;
+  margin: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.contact_info{
+  background-color: #e4e4e4;
+  border-radius: 1rem;
+  color: #424245;
+  padding: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.contact_info h2{
+  color: #424245;
+}
+
+.Contact_us_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_form {
+  width: 100%;
+  max-width: 30rem;
+}
+
+.message{
+  height: 5rem;
+}
+.contact_form input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.submit input{
+  margin-top: 1rem;
+  background-color: #38978e;
+  border: 0.1rem solid #43aaa08f;
+  color: #ffffff;
+  border-radius: 0.5rem;
+}
+.submit input:hover {
+  background-color: #fdfdff;
+  border: 0.1rem solid #424245b6;
+  color: #000000;
+  border-radius:13px;
+}
+
+.contact_info {
+  text-align: center;
+  margin-top: 0.5rem;
+}

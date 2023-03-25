@@ -1,0 +1,11 @@
+fade up animation:
+https://michalsnik.github.io/aos/
+
+magic card on about section:
+https://codepen.io/gayane-gasparyan/pen/jOmaBQK
+
+particles for the home page background:
+https://vincentgarreau.com/particles.js/
+
+type animation:
+https://codepen.io/qbrao/pen/RxmaRQ

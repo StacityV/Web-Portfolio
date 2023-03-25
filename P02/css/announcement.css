@@ -1,0 +1,62 @@
+.new_product_header h2{
+    background-color: #424245;
+    color: white;
+    padding: 0.5rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+.new_product{
+    margin: 1.5rem;
+    margin-top: 0rem;
+    padding: 2rem;
+    margin-bottom: 0rem;
+    color: #424245;
+    text-align: left;
+}
+.new_product_content{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border: 0.1rem solid #424245;
+}
+
+.connect_header h2{
+    background-color: #424245;
+    color: white;
+    padding: 0.5rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+.connect{
+    margin: 1.5rem;
+    margin-top: 0rem;
+    padding: 2rem;
+    margin-bottom: 0rem;
+    color: #424245;
+    text-align: left;
+}
+.connect_content{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border: 0.1rem solid #424245;
+}
+
+.login_header h2{
+    background-color: #424245;
+    color: white;
+    padding: 0.5rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+.login{
+    margin: 1.5rem;
+    margin-top: 0rem;
+    padding: 2rem;
+    margin-bottom: 0rem;
+    color: #424245;
+    text-align: left;
+}
+.login_content{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border: 0.1rem solid #424245;
+}

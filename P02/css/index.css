@@ -1,0 +1,326 @@
+/* *{
+    border: 0.1rem solid red;
+} */
+/* hero section start*/
+
+main{
+    padding: 0rem;
+}
+
+
+.hero-section{
+    background-image:url("../images/s23_index.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:40vw;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color:white;
+    padding-left:10rem;
+    background-color: #424245;
+}
+
+.hero-section h1{
+    font-size:2rem;
+    text-shadow: 2px 2px #38978e;
+    line-height: 2;
+}
+
+.hero-section p{
+    width: 20rem;
+    line-height: 1.5rem;
+}
+
+
+.hero-section div{
+    margin:0.2rem 0;
+}
+
+.hero-button{
+    color: white;
+    border: 0.1rem solid white;
+    margin-top: 1rem;
+    width: 16rem;
+    text-align: center;
+}
+
+.hero-button:hover, .hero-button:focus {
+    background-color: white;
+    color: #054C45;
+    border-radius:13px;
+    /* font-weight:bold; */
+}
+
+.collections-button{
+    /* margin-top: 10rem;
+    background-color: red; */
+    background-color: rgb(255, 255, 255);
+    color: #424245;
+    border: 0.1rem solid #424245;
+    width: 8rem;
+    text-align: center;
+}
+
+.collections-button:hover, .collections-button:focus {
+    background-color: #424245;
+    color: #ffffff;
+    border-radius:13px;
+    /* font-weight:bold; */
+}
+
+
+  
+
+@media screen and (max-width:1300px){
+    .hero-section{
+        height:50vw;
+    }
+}
+
+@media screen and (max-width:1050px){
+    .hero-section{
+        height:60vw;
+        padding-left:8rem;
+    }
+
+    .hero-section p{
+        width: 18rem;
+        line-height: 1.5rem;
+    }
+
+    .collections>div{
+        height:30vh;
+    }
+}
+
+@media screen and (max-width:850px){
+    .hero-section{
+        height:70vw;
+        padding-left:6rem;
+    }
+
+    .hero-section p{
+        width: 15rem;
+        line-height: 1.5rem;
+    }
+
+    .hero-section h1{
+        font-size:1.5rem;
+        text-shadow: 2px 2px #38978e;
+    }
+
+    .common-button{
+        font-size: 1rem;
+    }
+
+    .company-description h2{
+        font-size:1.5rem;
+    }
+
+    .collections{
+        flex-direction: column;
+        height:120vh;
+    }
+
+}
+
+@media screen and (max-width:650px){
+    .hero-section{
+        height:90vw;
+        padding-left:4rem;
+    }
+
+    .hero-section p{
+        width: 15rem;
+        line-height: 1.5rem;
+    }
+
+    .hero-section h1{
+        font-size:1.3rem;
+        text-shadow: 1.2px 1.2px #38978e;
+    }
+
+    .common-button{
+        font-size: 0.8rem;
+    }
+
+    .company-description h2{
+        font-size:0.9rem;
+    }
+
+    .collections{
+        flex-direction: column;
+        height:120vh;
+    }
+}
+
+@media screen and (max-width:450px){
+    .hero-section{
+        height:105vw;
+        padding-left:2rem;
+    }
+
+    .hero-section h1{
+        font-size:1rem;
+        text-shadow: 1px 1px #38978e;
+    }
+
+    .hero-section p{
+        font-size: 0.5rem;
+        width: 12rem;
+        line-height: 1.5rem;
+    }
+
+    .common-button{
+        font-size: 0.5rem;
+    }
+
+    .company-description h2{
+        font-size:0.9rem;
+    }
+}
+/* hero section end*/
+
+/* company description section start */
+.company-description{
+    color: #424245;
+    max-width:1500px;
+    margin:2rem auto;
+    padding:0 1rem;
+    /* border:1px solid red; */
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.company-description h2{
+    font-size:2rem;
+    color:#424245
+}
+
+.company-description p{
+    max-width: 500px;
+    margin: auto;
+}
+
+
+/* company description section stop */
+
+
+/* collections section start */
+.collections{
+    display:flex;
+    gap:1rem;
+    max-width: 1500px;
+    margin: auto;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    padding: 0rem 2rem;
+}
+
+.collections>div{
+    border-radius: 0.5rem;
+    height:80vh;
+    flex:1;
+}
+
+.collections>div:nth-of-type(1){
+    background-image: url("../images/red_magic_index.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+.collections>div:nth-of-type(2){
+    background-image: url("../images/ipad_index.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.collections>div:nth-of-type(3){
+    background-image: url("../images/mac_index.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.collections>div{
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.collections a{
+    color:#424245;
+    margin-bottom: 1.5rem;
+}
+
+.collections>div:nth-of-type(1)::before {
+    color: #ffffff;
+    background-color: #424245;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    content: "View All Mobile Phone Products \A Click Button Below to Enter";
+    white-space: pre;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.collections>div:nth-of-type(1):hover::before {
+    opacity: 0.9;
+}
+
+.collections>div:nth-of-type(2)::before {
+    color: #ffffff;
+    background-color: #424245;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    content: "View All Pad Products \A Click Button Below to Enter";
+    white-space: pre;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.collections>div:nth-of-type(2):hover::before{
+    opacity: 1;
+}
+
+.collections>div:nth-of-type(3)::before {
+    color: #ffffff;
+    background-color: #424245;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    content: "View All Mac Products \A Click Button Below to Enter";
+    white-space: pre;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.collections>div:nth-of-type(3):hover::before{
+    opacity: 1;
+}
+
+/* collections section stop */

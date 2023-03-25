@@ -8,7 +8,10 @@
     src: url("../font/Bebas_Neue/BebasNeue-Regular.ttf");
 }
 
-
+@font-face {
+    font-family: 'Ubuntu', sans-serif;
+    src: url("../font/Ubuntu/Ubuntu-Regular.ttf");
+}
 
 body{
     font-family: Bebas Neue;
@@ -26,11 +29,12 @@ p{
     line-height:1.5;
 }
 
-a.text_link_underline{
+a.text_link_underline_nav{
     position:relative;
+    color: #fff;
 }
 
-a.text_link_underline:after{
+a.text_link_underline_nav:after{
     content:"";
     position:absolute;
     width:0;
@@ -41,7 +45,45 @@ a.text_link_underline:after{
     transition: width 0.5s;
 }
 
+a.text_link_underline_nav:hover:after, a.text_link_underline_nav:focus{
+    width:100%
+}
+
+a.text_link_underline{
+    position:relative;
+}
+
+a.text_link_underline:after{
+    content:"";
+    position:absolute;
+    width:0;
+    height:1.4rem;
+    top:0;
+    left:0;
+    border-bottom:1px solid #87EBCF;
+    transition: width 0.5s;
+}
+
 a.text_link_underline:hover:after, a.text_link_underline:focus{
+    width:100%
+}
+
+a.text_link_underline_h2{
+    position:relative;
+}
+
+a.text_link_underline_h2:after{
+    content:"";
+    position:absolute;
+    width:0;
+    height:2.1rem;
+    top:0;
+    left:0;
+    border-bottom:1px solid #87EBCF;
+    transition: width 0.5s;
+}
+
+a.text_link_underline_h2:hover:after, a.text_link_underline_h2:focus{
     width:100%
 }
 
@@ -105,13 +147,34 @@ header .navigation li{
 
 .text_link_animation{
     color:rgb(220,220,220);
+    transition: color 1.5s, font-weight 1.5s;
+}
+
+.text_link_animation{
+    transition: letter-spacing 1s;
+}
+
+.text_link_animation:hover, .text_link_animation:focus{
+    letter-spacing: 0.2rem;
+}
+
+.text_link_animation_p{
+    color:rgb(220,220,220);
     font-size: 0.5rem;
     transition: color 1.5s, font-weight 1.5s;
 }
 
-.text_link_animation:hover, .text_link_animation:focus{
+.text_link_animation_p:hover, .text_link_animation_p:focus{
     /* color: #F56042; */
     /* font-weight: bold; */
+}
+
+.text_link_animation_p{
+    transition: letter-spacing 1s;
+}
+
+.text_link_animation_p:hover, .text_link_animation_p:focus{
+    letter-spacing: 0.1rem;
 }
 
 .text_link_animation_spacing{
@@ -137,6 +200,12 @@ header .navigation li{
 
 img{
     width:100%;
+}
+
+.content_font{
+    text-transform:none;
+    font-family: Ubuntu;
+    line-height: normal;
 }
 
 @media screen and (max-width:800px) {

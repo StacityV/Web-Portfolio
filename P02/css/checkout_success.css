@@ -1,0 +1,57 @@
+.back input{
+    margin-top: 1rem;
+    background-color: #38978e;
+    border: 0.1rem solid #43aaa08f;
+    color: #ffffff;
+    border-radius: 0.5rem;
+    height: 3rem;
+}
+
+.back input:hover{
+	background-color: #fdfdff;
+    border: 0.1rem solid #424245;
+    color: #424245;
+    border-radius: 0.5rem;
+}
+
+.success{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #424245;
+    background-color: #e4e4e4;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+img{
+	max-width: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+.success h2{
+    color: #424245;
+}
+
+.success_head{
+    color: #424245;
+    text-align: center;
+    margin: 3rem;
+}
+
+.success h3{
+    margin: 0.5rem;
+}
+
+.submit_btn{
+    margin-top: 3rem;
+    background-color: #38978e;
+    color: #ffffff;
+    border: 0.1rem solid #43aaa08f;
+/*    width: 10vw;*/
+    text-align: center;
+}

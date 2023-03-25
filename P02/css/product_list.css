@@ -1,0 +1,194 @@
+.smartphone_section {
+  background-color: #ffffff;
+  color: #424245;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+/* product card section start*/
+.product_listing_products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  background-position: center;
+  justify-content: space-between;
+}
+
+.product-card-title a, .product-card-price a{
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #2c2c2e;
+  display: inline-block;
+  margin: 0.7rem 0rem;
+  padding-left: 0.5rem;
+}
+
+.product-card-picture{
+  /* border: 0.1rem solid red; */
+  position: relative;
+  text-align: center;
+}
+
+.product-card-picture_1::before {
+  color: #ffffff;
+  background-color: #ffffff77;
+  border-radius: 0.5rem;
+  padding:0.3rem 0.5rem;
+  content: "95% New iPhone 14 \A Click for Detail";
+  white-space: pre;
+  z-index: 1000;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.product-card-picture_1:hover::before {
+  opacity: 1;
+}
+
+.product-card-picture_2::before {
+  color: #ffffff;
+  background-color: #ffffff77;
+  border-radius: 0.5rem;
+  padding:0.3rem 0.5rem;
+  content: "95% New Xiaomi 12s Ultra \A Click for Detail";
+  white-space: pre;
+  z-index: 1000;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.product-card-picture_2:hover::before {
+  opacity: 1;
+}
+
+.product-card-picture_3::before {
+  color: #ffffff;
+  background-color: #ffffff77;
+  border-radius: 0.5rem;
+  padding:0.3rem 0.5rem;
+  content: "85% New Samsung Galaxy Fold4 \A Click for Detail";
+  white-space: pre;
+  z-index: 1000;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.product-card-picture_3:hover::before {
+  opacity: 1;
+}
+
+.product-card-picture_4::before {
+  color: #ffffff;
+  background-color: #ffffff77;
+  border-radius: 0.5rem;
+  padding:0.3rem 0.5rem;
+  content: "90% New OPPO Find N2 Flip \A Click for Detail";
+  white-space: pre;
+  z-index: 1000;
+  position: absolute;
+  top:80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.product-card-picture_4:hover::before {
+  opacity: 1;
+}
+
+.product-card {
+  /* flex: 1;
+  flex-basis: 330px; */
+  width: 22%;
+}
+
+.product_listing_products img {
+  width: 100%;
+  font-size: 0;
+}
+
+
+/* .product-card{
+  position:relative;
+} */
+
+.product-card-picture:hover:before {
+  transform: scale(2);
+}
+
+/* .product-card-picture:before{
+  content:"Click for detail";
+  z-index:1000;
+  position:absolute;
+  top:45%;
+  left:35%; 
+  color:white;
+  background-color:#ffffff88;
+  transform: scale(0);
+  cursor:pointer;
+  transition: all 0.5s;
+} */
+
+.product-card-picture {
+  overflow: hidden;
+  border-radius: 0.75rem;
+
+}
+/* .product-card-picture img{
+  font-size: 0;
+
+} */
+
+
+.product-card-picture img {
+  transition: all 1s;
+}
+
+.product-card-picture:hover img {
+  transform: scale(1.1);
+}
+
+.product_listing_products a {
+  text-decoration: none;
+}
+
+.product_listing_products a:hover,
+.product_listing_products a:focus {
+  text-decoration: underline;
+}
+
+/* product card section stop
+
+/* footer section */
+.footer-menu {
+  margin-top: 5rem;
+}
+
+@media screen and (max-width: 850px){
+  .product-card{
+    width: 45%;
+
+  }
+}
+
+@media screen and (max-width: 450px){
+  .product-card{
+    width: 98%;
+
+  }
+}

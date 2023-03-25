@@ -1,0 +1,143 @@
+/*    input styling    */
+
+/**{
+    border:1px solid red;
+}*/
+.userName {
+    font-size: 1rem;
+    margin-top: 6rem;
+}
+
+form {
+    border: 0.5rem solid #AC292B;
+    border-radius: 1rem;
+    overflow: hidden;
+    width: 50rem;
+}
+
+input[type=text]:hover,
+input[type=text]:focus {
+    background-color: #cecece;
+}
+
+input[type=text] {
+    margin-top: 0.5rem;
+    width: 100%;
+    margin-bottom: 1.05rem;
+    padding: 1rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+    transition: all 1s;
+}
+
+/* -------------------Payment form --------------------------------------*/
+
+.payform {
+    /*general setting of billing address and payment box*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 6rem;
+    /* distance of head space */
+    gap: 2rem;
+    /* distance between each box*/
+    max-width: 60rem;
+    margin: auto;
+    /* border:1px solid red; */
+}
+
+.billingAddress,
+.payment {
+    border-radius: 1.5rem;
+    background-color: #f2f2f2;
+    padding: 0.5rem 1.75rem 1.05rem 1.75rem;
+    border: 0.1rem solid lightgrey;
+    border-radius: 0.5rem;
+    flex: 1;
+}
+
+/* .payform>div:nth-of-type(1){
+    width:32.5vw;
+} */
+
+.PaymentTitle {
+    /* border-top: 0.2rem solid #222222; */
+    font-size: 1.7rem;
+    padding: 2rem 4rem 5rem 0rem;
+    color: #222222;
+}
+
+
+
+input[type=number] {
+    margin-top: 0.5rem;
+    /* width: 50%; */
+    margin-bottom: 1.05rem;
+    padding: 1rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+}
+
+.payformshort {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.payformshort div {
+    flex: 1;
+    /* border:1px solid green; */
+}
+
+.payformshort input[type=text] {
+    width: 100%;
+}
+
+@media screen and (max-width:850px) {
+
+    .payform,
+    .navtag,
+    .topnavtag {
+        flex-direction: column;
+    }
+}
+
+/* -------------------Product Image--------------------------------------*/
+
+.product-section {
+	display: flex;
+	flex-direction: column;
+/*	align-items: center;*/
+}
+
+.product-image-phone {
+	margin-bottom: 20px;
+}
+
+.free-shipment {
+    margin: 1.5rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.shipment-icon {
+    width: 5rem;
+    margin-right: 1.5rem;
+}
+
+.free-shipment p, .free-protect p{
+    width: 80%;
+}
+
+.free-protect {
+    margin: 1.5rem;
+    margin-top: 0rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.protect-icon {
+    width: 5rem;
+    margin-right: 1.5rem;
+    margin-left: 0.2rem;
+}

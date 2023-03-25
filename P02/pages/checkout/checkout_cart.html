@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="utf-8">
+<title>Resonsive Structures Collection</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="../../css/main.css" rel="stylesheet">
+
+<!--nav sections-->
+<meta charset="utf-8" />
+<title>TeCycle</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="../../css/normalize.css" rel="stylesheet" />
+<link href="../../css/general.css" rel="stylesheet" />
+<link href="../../css/index.css" rel="stylesheet" />
+<link href="../../css/product_detail.css" rel="stylesheet" />
+
+
+<script src="https://kit.fontawesome.com/453e4b626a.js" crossorigin="anonymous"></script>
+
+<body>
+  <header>
+    <div class="header-promotion">
+    </div>
+    <div class="header-logo">
+      <div class="mobile-icon" onclick="toggleMenu()"><i class="fa-solid fa-bars-staggered"></i></div>
+      <div><a href="../../home.html">TeCycle</a></div>
+      <div class="logo_image"><a href="../../home.html"><img src="../../images/logo.png" alt="logo image"></a></div>
+      <div>
+        <a href="#" aria-label="search"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href="../login.html" aria-label="user"><i class="fa-solid fa-user"></i></a>
+        <a href="checkout_info_page.html" aria-label="shopping_cart"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+    </div>
+    <div class="header-menu">
+      <nav>
+        <a href="../../style.html">Style Guide</a>
+        <a href="#">Interactive Elements</a>
+        <a href="#">Text Elements</a>
+        <a href="#">Combined Elements</a>
+        <a href="../product_list/product_list_phone.html">Product Listing Template</a>
+        <a href="checkout_cart.html">Checkout Template</a>
+        <a href="#">Citations</a>
+      </nav>
+    </div>
+  </header>
+
+  <!--pay form-->
+
+  <section class="element payformSection" id="checkout.html">
+    <h3>Payment Form</h3>
+
+    <div class="payform">
+      <div class="billingAddress">
+        <div class="PaymentTitle">Billing Address</div>
+        <div class="PaymentSection">Full Name</div>
+        <input type="text" class="PaymentSectionInput" placeholder="Steve Radio">
+        <div class="PaymentSection">Email</div>
+        <input type="text" class="PaymentSectionInput" placeholder="example@email.com">
+        <div class="PaymentSection">Address</div>
+        <input type="text" class="PaymentSectionInput" placeholder="1111-12345 Example Rd">
+        <div class="PaymentSection">City</div>
+        <input type="text" class="PaymentSectionInput" placeholder="City">
+
+        <div class="payformshort">
+          <div class="PaymentSection">
+            Province
+            <div>
+              <input type="text" class="PaymentSectionInput" placeholder="Province">
+            </div>
+          </div>
+          <div class="PaymentSection">
+            Postcode
+            <div>
+              <input type="text" class="PaymentSectionInput" placeholder="V3E1H3">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="payment">
+        <div class="PaymentTitle">Payment</div>
+        <div class="PaymentSection">Name On Card</div>
+        <input type="text" class="PaymentSectionInput" placeholder=" Steve Radio">
+        <div class="PaymentSection">Card Number</div>
+        <input type="text" class="PaymentSectionInput" placeholder="xxxx-xxxx-xxxx-xxxx">
+        <div class="PaymentSection">Exp Month</div>
+        <input type="text" class="PaymentSectionInput" placeholder="MM">
+        <div class="payformshort">
+          <div class="PaymentSection">
+            Exp Year
+            <div>
+              <input type="text" class="PaymentSectionInput" placeholder="YYYY">
+            </div>
+          </div>
+          <div class="PaymentSection">
+            CVV
+            <div>
+              <input type="text" class="PaymentSectionInput" placeholder="XXX">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="checkoutCart" id="#">
+
+      <div class="PaymentTitle">Subtotal</div>
+      <div class="checkoutitems">
+        <div class="firstitem">
+          <div class="checkoutCartName">Xiaomi 13 Ultra</div>
+          <div class="checkoutCartQuantity">
+            <input type="number" class="quantity" min="0" max="99" value="1" aria-label="quantity1">
+          </div>
+        </div>
+
+        <div class="checkoutCartPrice">$1399.99</div>
+
+        <div class="seconditem">
+          <div class="checkoutCartName">Xiaomi Free Buds pro</div>
+          <div class="checkoutCartQuantity">
+            <input type="number" class="quantity" min="0" max="99" value="1" aria-label="quantity2">
+          </div>
+        </div>
+
+        <div class="checkoutCartPrice">$399.99</div>
+      </div>
+      <!--choose quantity of product-->
+      <div class="checkoutCartSubtotal">$1799.98</div>
+      <div class="submit">
+        <input class="button-nav submitbtn" type="submit" value="Clear Cart">
+        <input class="button-nav submitbtn" type="submit" value="Submit">
+      </div>
+    </div>
+  </section>
+
+
+</body>
+
+</html>

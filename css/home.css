@@ -7,12 +7,20 @@
     src: url("../font/Ubuntu/Ubuntu-Regular.ttf");
 }
 
+/* *{
+    border: 1px solid red;
+} */
+
 h1 {
     font-family: "Cormorant Garamond", serif;
     font-size: 4rem;
     font-weight: bold;
     color: white;
     letter-spacing: 0.7rem;
+}
+
+h2{
+    font-size: 1.75rem;
 }
 
 main {
@@ -86,15 +94,20 @@ a.checkout_btn:focus {
 
 .language li {
     list-style-type: circle;
+    display: flex;
+    text-align:left;
+    padding-top: 0.5rem;
 }
 
 .my_info{
-    height: 85vh;
+    height: 65vh;
+    text-transform:none;
 }
 
 .my_info_detail {
     display: flex;
     justify-content: space-between;
+    padding-top: 2rem;
     gap: 3rem;
 }
 

@@ -1,0 +1,90 @@
+
+
+
+
+h1{
+text-align: center;
+padding: 30px;
+color: #424245;
+}
+
+h2{
+    font-size: 1.6rem;
+    padding-bottom: 10px;
+}
+
+.Logininfo{
+    padding-bottom: 7px;
+}
+
+.LoginInfoInput{
+    padding: 0.3rem;
+}
+
+.Password{
+    margin-top: 30px auto ;
+    padding-top: 30px;
+    padding-bottom: 7px;
+
+}
+
+.PasswordnInput{
+    padding: 0.3rem;
+}
+
+.container{
+    background-color:  #424245;
+    padding: 2rem;
+    color: white;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin: 0 10rem;
+}
+
+@media (max-width: 850px) {
+    .container{
+        margin: 0 1rem;
+    }
+}
+
+
+.submit input{
+    margin-top: 2rem;
+    background-color: #38978e;
+    border: 0.1rem solid #43aaa08f;
+    width: 10%;
+    max-width: 10rem;
+    min-width: 5rem;
+    height: 2rem;
+    color: #ffffff;
+    border-radius: 0.5rem;
+}
+.submit input:hover {
+    background-color: #fdfdff;
+    border: 0.1rem solid #424245b6;
+    color: #000000;
+    border-radius:7px;
+}
+
+.signup{
+    padding-top: 2rem;
+}
+
+.createacct{
+    padding-top: 0.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.create_btn{
+    padding-left: 5px;
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: white;
+}
+
+.create_btn:hover , .create_btn:focus{
+    padding-left: 5px;
+    font-size: 0.7rem;
+    color: #38978e;
+}
