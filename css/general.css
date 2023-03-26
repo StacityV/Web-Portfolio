@@ -202,12 +202,6 @@ img{
     width:100%;
 }
 
-.content_font{
-    text-transform:none;
-    font-family: Ubuntu;
-    line-height: normal;
-}
-
 @media screen and (max-width:800px) {
     .mobile-nav-icon{
         display:block;
@@ -276,6 +270,13 @@ img{
 
 #my_info .right {
     width: 35%;
+}
+
+
+.content_font{
+    text-transform:none;
+    font-family: Ubuntu;
+    line-height: normal;
 }
 
 
