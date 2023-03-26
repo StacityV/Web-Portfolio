@@ -59,7 +59,7 @@ a.text_link_underline:after{
     width:0;
     height:1.4rem;
     top:0;
-    left:0;
+    left:1rem;
     border-bottom:1px solid #87EBCF;
     transition: width 0.5s;
 }
@@ -171,10 +171,11 @@ header .navigation li{
 
 .text_link_animation_p{
     transition: letter-spacing 1s;
+    padding-left: 1rem;
 }
 
 .text_link_animation_p:hover, .text_link_animation_p:focus{
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.05rem;
 }
 
 .text_link_animation_spacing{
