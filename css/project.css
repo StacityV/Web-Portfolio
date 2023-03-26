@@ -83,6 +83,7 @@ main {
 /* information section start*/
 .aProduct-information {
     padding-left: 2rem;
+    padding-top: 1rem;
     width: 40%;
 }
 
@@ -92,9 +93,8 @@ main {
     font-size: 0.7rem;
 }
 
-.aProduct-information h1 {
-    color: #38978e;
-    font-size: 1.5rem;
+.aProduct-information p {
+    font-size: 1rem;
 }
 
 h1>span {
