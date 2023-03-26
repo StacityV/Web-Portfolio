@@ -1,5 +1,14 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
 
+@font-face {
+    font-family: 'Ubuntu', sans-serif;
+    src: url("../font/Ubuntu/Ubuntu-Regular.ttf");
+}
+
+*{
+    border: 1px solid red;
+}
+
 html,
 body {
     font-family: 'Roboto Mono', monospace;
@@ -10,6 +19,15 @@ body {
 body{
     color:#fff;
     font-size:0.8rem;
+}
+
+h2{
+    color: #fff;
+}
+
+p{
+    font-family: Ubuntu;
+    font-weight: 100;
 }
 
 main {
@@ -23,6 +41,7 @@ main {
 .aProduct-container {
     display: flex;
     gap: 2rem;
+    padding-top: 3rem;
 }
 
 
@@ -94,7 +113,7 @@ main {
 }
 
 .aProduct-information p {
-    font-size: 1rem;
+    font-size: 0.95rem;
 }
 
 h1>span {
