@@ -6,6 +6,11 @@
     src: url("../font/Ubuntu/Ubuntu-Regular.ttf");
 }
 
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url("../font/Montserrat/static/Montserrat-Regular.ttf");
+}
+
 *{
     /* border: 1px solid red; */
 }
@@ -44,18 +49,19 @@ h1>span{
 
 h2{
     color: #87EBCF;
-    padding: 2rem 0;
+    padding: 0.2rem 0;
 }
 
 h3{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
 }
 
 main {
