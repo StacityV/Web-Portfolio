@@ -129,6 +129,8 @@ header .logo {
     font-size: 1.2rem;
     margin: 0;
     padding: 0;
+    width: 25px;
+    height: 25px;
 }
 
 header .navigation {
@@ -168,11 +170,11 @@ header .navigation li {
     transition: color 1.5s, font-weight 1.5s;
 }
 
-.text_link_animation_p:hover,
+/* .text_link_animation_p:hover,
 .text_link_animation_p:focus {
-    /* color: #F56042; */
-    /* font-weight: bold; */
-}
+    color: #F56042;
+    font-weight: bold;
+} */
 
 .text_link_animation_p {
     transition: letter-spacing 1s;
@@ -338,11 +340,11 @@ img {
     text-align: center;
 }
 
-.ending_words{
-    /* color: #F20605;
-    font-size: 1.5rem; */
+/* .ending_words{
+    color: #F20605;
+    font-size: 1.5rem;
 
-}
+} */
 
 .contact_icon {
     list-style: none;
