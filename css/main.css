@@ -1,0 +1,447 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+
+/* change font */
+@font-face{
+  font-family: myFirstFont; 
+  src: url("../fonts/Lato/Lato-Black.ttf")
+}
+
+*{ /* *for all elements */
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 12pt;
+}
+
+body {
+  font-family: Latosans-serif;
+  padding: 2rem;
+}
+
+.element {
+  padding-bottom: 2rem;
+  /* border-top: 0.15rem solid black; */
+  max-width: 1500px;
+  margin: auto;
+}
+
+.element a{
+  text-decoration: none;
+
+}
+
+h1 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+h2 {
+  /* font-family: myFirstFont;  */
+  font-size: 2rem;
+  margin-top: 6rem;
+}
+
+h3 {
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+.style_heading h3{
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+h4 {
+  margin-bottom: 0.25rem;
+}
+
+p {
+  margin-top: 0;
+  width: 15rem; /* resize defaut p length*/
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+.topNav{
+  align-items: flex-end;
+}
+
+code {
+  background-color: #EEE;
+  padding: 0.5rem;
+  display: block;
+}
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+
+.common-button:hover, .common-button:focus {
+  background-color: rgb(0, 0, 0);
+  color:white;
+  border-radius:20px;
+}
+
+section{
+  margin: 5rem 0; /* 5: up&down 0: left&right */
+}
+
+.in-text-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.in-text-link:hover{
+  color:#4F68FA;
+  text-decoration: underline;
+}
+
+.in-text-link:focus{  
+  text-decoration: underline;
+}
+
+.image-as-link:hover{
+  color:rebeccapurple
+  /* border-color: rebeccapurple; */
+}
+
+.image-as-link:focus{
+  color: #4F68FA;
+}
+
+
+/*    input styling    */
+.userName{
+  font-size: 1rem;
+  margin-top: 6rem;
+}
+
+form{
+  border: 0.5rem solid #FF0000;
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 50rem;
+}
+
+
+
+/* --------------------------heading nav tag----------------------*/
+
+
+.topnavtag {
+  display: flex;
+  background-color: #222222;
+  border-bottom: 0.1rem solid #222222;
+  /* position: fixed; */
+}
+
+.navtag{ /* adjuest nav button as a whole*/
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbutton{ /* set as individual buttom, adjuest distance of each buttom */
+  margin-left: 2rem;
+  padding-top: 0.5rem;
+}
+
+.h1title{
+  display: flex;
+  justify-content: flex-start;
+  
+
+}
+
+/* ------------------product list-------------------------*/
+
+.container{
+  /* border: 0.1rem solid black; */
+  display: flex;
+  justify-content: space-between;
+  /* height: 20vw;
+  align-items: center; */
+  flex-wrap: wrap;
+  gap: 1.3rem;
+}
+
+.zfold4,.mi12u,.iphone14,.findn2flip{
+  /* background-color: black;  */
+  align-items: center;
+  justify-content: space-around;
+  flex-basis: 25%;
+  height: 30rem;
+  width: 25rem;
+  border-radius: 0.1rem;
+
+}
+
+/* .Specific{
+  display: flex;
+  justify-content:space-around;
+  gap: 1rem;
+} */
+
+.container>div:nth-of-type(1){
+  background-image: url("../images/fold4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 1.5rem;
+  flex: 1;
+  flex-basis: 25%;
+  height: 35vw;
+  border-radius: 1rem;
+}
+
+.container>div:nth-of-type(2){
+  background-image: url("../images/m12u.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 1.5rem;
+  flex: 1;
+  flex-basis: 25%;
+  height: 35vw;
+  border-radius: 1rem;
+}
+
+.container>div:nth-of-type(3){
+  background-image: url("../images/14p.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 1.5rem;
+  flex: 1;
+  flex-basis: 25%;
+  height: 35vw;
+  border-radius: 1rem;
+}
+
+.container>div:nth-of-type(4){
+  background-image: url("../images/fn2f.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 1.5rem;
+  flex: 1;
+  flex-basis: 25%;
+  height: 35vw;
+  border-radius: 1rem;
+}
+
+.container a{
+  color: white;
+  /* margin-bottom: 5rem; */
+  padding: 5rem;
+}
+
+.container a:hover{
+  color:#D8DEFE;
+  text-decoration: underline;
+  text-align: center;
+}
+
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+.heading_h2 h2{
+  color: #424245;
+  margin: 0rem;
+}
+.heading_h3 h3{
+  font-size: 1.25rem;
+}
+
+/* -------------------Payment form --------------------------------------*/
+
+.payform{ /*general setting of billing address and payment box*/
+ display:flex;
+  justify-content: center;
+  /* border:1px solid red; */
+ margin-top: 6rem; /* distance of head space */
+  gap: 5rem; /* distance between each box*/
+  max-width:60rem;
+  margin: auto;
+  /* border:1px solid red; */
+}
+
+.billingAddress, .payment{
+  border-radius: 1.5rem;
+  background-color: #f2f2f2;
+  padding: 0.5rem 1.75rem 1.05rem 1.75rem;
+  border: 0.1rem solid lightgrey;
+  border-radius: 0.5rem;
+  flex:1;
+}
+
+.PaymentTitle{
+  /* border-top: 0.2rem solid #222222; */
+  font-size: 1.7rem;
+  padding: 2rem 4rem 5rem 0rem;
+  color: #222222;
+}
+
+
+.payformshort{
+  display:flex;
+  justify-content: space-between;
+  gap:1rem;
+}
+
+.payformshort div{
+  flex:1;
+  /* border:1px solid green; */
+} 
+
+.payformshort input[type=text]{
+  width: 100%;
+}
+
+@media screen and (max-width:850px){
+  .payform, .navtag, .topnavtag{
+    flex-direction: column;
+  }
+}
+
+
+.checkoutCart{
+  margin-top: 1rem;
+}
+
+.checkoutCartSubtotal{
+  margin-top: 1.5rem;
+  /* border-top: 0.1rem solid #222222; */
+}
+
+.checkoutitems, .checkoutCartSubtotal{ /*two items*/
+  /* display: flex; */
+  justify-content: space-around;
+  max-width: 850px;
+  margin: auto;
+}
+
+.firstitem, .seconditem{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.checkoutCartPrice, .checkoutCartSubtotal{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.checkoutCartName{
+  font-size: 1.5rem;
+}
+
+.checkoutCartPrice {
+  font-size: 1rem;
+}
+
+.firstitem, .seconditem, .checkoutCartPrice, .checkoutCartSubtotal{ /*distance between each line*/
+  margin-top: 2.5rem;
+}
+
+.checkoutCartSubtotal{
+  border-top:0.12rem solid #222222;
+  padding-top: 1.25rem;
+  font-size: 1.5rem;
+}
+
+.submit{
+  display: flex;
+  justify-content: flex-end;
+  border: 2rem;
+  padding-top: 3rem;
+  max-width: 850px;
+  margin: auto;
+}
+
+.submitbtn{
+  margin-left: 2rem;
+  font-size: 1.2rem;
+  width: 15%;
+  height: 20%
+}
+
+/* .supportCardImage{
+  
+} */
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+.title_section h2{
+  color: black;
+}
+
+/* Assenble brand components */
+
+/* .demo{
+  background-color: #000;
+} */
+
+.demofont{
+  font-family: Latosans-serif;
+}
+
+.demobackground{
+  background-color: #fff;
+}
+
+.demotitle{
+  color: #fff;
+  background-color: #424245;
+}
+
+.brand_component h2{
+  color: #424245;
+}
+.font_26letter{
+  margin-top: 1rem;
+}
+.font_image img{
+  margin-top: 1rem;
+  width: 70%;
+  min-width: 25rem;
+}
+.demoblack{
+  color: #ffffff;
+  background-color: black;
+}
+.democolorccc{
+  background-color: #ccc;
+}
+.democolorFF0000{
+  color: #ffffff;
+  background-color: #FF0000;
+}
+.democolor054C45{
+  color: #ffffff;
+  background-color: #054C45;
+}
+.democolor38978e{
+  color: #ffffff;
+  background-color: #38978e;
+}
+

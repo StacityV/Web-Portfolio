@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>P01 - Style Guide Template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <header>
+    <div class="topnavtag">
+      <div class="headerTag element">
+        <h1>TeCycle</h1>
+      </div>
+
+      <nav class="navtag element">
+        <a href="#interactive_elements" class="in-text-link navbutton">Interactive Elements</a>
+        <a href="#text_elements" class="in-text-link navbutton">Text Elements</a>
+        <a href="#combined_elements" class="in-text-link navbutton">Combined Elements</a>
+        <a href="pages/product_list/product_list_phone.html" class="in-text-link navbutton">Product List Template</a>
+        <a href="pages/checkout/checkout_cart.html" class="in-text-link navbutton">Checkout Template</a>
+        <a href="#citations" class="in-text-link navbutton">Citations</a>
+      </nav>
+    </div>
+  </header>
+  
+
+  <section id="Git_Link" class="title_section">
+  </section>
+  <!-- INTERACTIVE ELEMENTS SECTION // -->
+  <section id="interactive_elements">
+    <div class="title_section">
+      <h2>Interactive Elements</h2>
+    </div>
+
+    <section class="element">
+      <h3>In-text link</h3>
+
+      <h4>CSS selector:</h4>
+      <p>.in-text-link</p>
+
+      <h4>Sample code:</h4>
+      <code>
+          &lt;p&gt;My hometwon is a beatiful city, &lt;a
+          href="#"&gt;Nanjing&lt;/a&gt;&lt;/p&gt;</code>
+      <!-- code sample, &lt; for "<" and &gt; for ">"-->
+
+      <h4>Rendered element:</h4>
+      <!--in text link & A paragraph-->
+      <p>
+        My hometwon is a beatiful city,
+        <a href="https://en.wikipedia.org/wiki/Nanjing" class="text_link_underline text_link_animation_p">Nanjing</a>
+      </p>
+    </section>
+
+    <!-- Default Button styling section -->
+    <section class="element">
+      <h3>Navigation Link</h3>
+
+      <h4>CSS selector:</h4>
+      <p>.button-nav</p>
+      <h4>Sample code:</h4>
+      <code>&lt;a href="#" class="button"&gt;Smart Phones&lt;/a&gt;</code>
+
+      <h4>Rendered element:</h4>
+      <div class="header-menu">
+        <nav>
+          <a href="#product_listing">Smart Phones</a>
+        </nav>
+      </div>
+
+    </section>
+
+    <section class="element">
+      <h3>Submit/Reset Buttons</h3>
+      <h4>CSS selector:</h4>
+      <p></p>
+      <h4>Sample Code:</h4>
+      <code>
+          &lt;input type="submit" value ="submit"&gt; &lt;input type="reset"
+          value ="reset"&gt;
+        </code>
+      <h4>Rendered element:</h4>
+      <input class="common-button" type="submit" value="submit">
+      <input class="common-button" type="reset" value="reset">
+    </section>
+
+    <section class="element">
+      <h3>Text Input Field with Label</h3>
+      <h4>CSS selector:</h4>
+
+      <!--Four levels of heading-->
+      <h4>Sample code:</h4>
+      <code>&lt;label for="name"&gt;your name: &lt;/label&gt;&lt;input type="text"
+        id="name"&gt;</code>
+      <!-- sample code of empty space to enter text-->
+
+      <h4>Rendered element:</h4>
+      <!--A text input field and a label-->
+      <label class="userName" for="name">User Name:</label>
+      <p><input type="text" id="name"></p>
+      <!-- empty space to enter text-->
+    </section>
+
+    <section class="element">
+      <h3>Radio Button with Label</h3>
+
+      <h4>CSS selector:</h4>
+      <p></p>
+      <h4>Sample Code:</h4>
+      <code> &lt;input type="radio" value ="radio"&gt; </code>
+      <h4>Rendered element:</h4>
+      <label for="mastercard">MasterCard: </label><input type="radio" id="mastercard">
+    </section>
+
+    <section class="element">
+      <h3>Image as a Link</h3>
+
+      <h4>CSS selector:</h4>
+      <p>.product-card-picture</p>
+      <h4>Sample code:</h4>
+      <code>
+
+      </code>
+      <!-- sample code of empty space to enter text-->
+
+      <h4>Rendered element:</h4>
+
+      <!--An image as a link-->
+      <section class="product_listing_brend">
+        <div class="product_listing_products">
+          <div class="product-card-picture">
+            <a href="">
+              <div class="product-card-picture_1">
+                <img src="images/14p.png" alt="picture about iPhones">
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- a image import with hyperlink-->
+
+      <!--A paragraph-->
+    </section>
+  </section>
+  <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+  <!-- TEXT ELEMENTS SECTION // -->
+  <section id="text_elements">
+    <div class="title_section">
+      <h2>Text Elements</h2>
+    </div>
+
+    <section class="element style_heading">
+      <h3>Headings</h3>
+      <h4>CSS selector:</h4>
+      <p></p>
+      <h4>Sample code:</h4>
+      <code>
+        &lt;h2&gt;This is the h2 level heading&lt;/h2&gt;
+        &lt;h3&gt;This is the h3 level heading&lt;/h3&gt;
+        &lt;h4&gt;This is the h4 level heading&lt;/h4&gt;
+        &lt;h5&gt;This is the h5 level heading&lt;/h5&gt;
+      </code>
+      <!-- sample code of empty space to enter text-->
+
+      <h4>Rendered element:</h4>
+      <h2>This is the h2 level heading</h2>
+      <h3>This is the h3 level heading</h3>
+      <h4>This is the h4 level heading</h4>
+      <h5>This is the h5 level heading</h5>
+    </section>
+
+    <section class="element">
+      <h3>Paragraphs</h3>
+      <h4>CSS selector:</h4>
+      <p></p>
+      <h4>Sample code:</h4>
+      <code>
+        &lt;p&gt;
+          A15 Bionic, with a &lt;em&gt;5‑core GPU&lt;/em&gt;, powers all the latest features
+          and makes graphically intense games and AR apps feel ultra‑fluid. An
+          updated internal design delivers better thermal efficiency, so you can
+          stay in the action longer.
+          &lt;/p&gt;
+      </code>
+      <!-- sample code of empty space to enter text-->
+
+      <h4>Rendered element:</h4>
+      <p>
+        A15 Bionic, with a <em>5‑core GPU</em>, powers all the latest features
+        and makes graphically intense games and AR apps feel ultra‑fluid. An
+        updated internal design delivers better thermal efficiency, so you can
+        stay in the action longer.
+      </p>
+      <!--parapragh-->
+    </section>
+
+    <section class="element">
+      <h3>Numbered Lists</h3>
+      <h4>CSS selector:</h4>
+      <p></p>
+      <h4>Sample code:</h4>
+      <code>
+        &lt;ol&gt;
+        &lt;li>Phones&lt;/li&gt;
+        &lt;li>PCs&lt;/li&gt;
+        &lt;li>Pads&lt;/li&gt;
+          &lt;/ol&gt;
+      </code>
+      <!-- sample code of empty space to enter text-->
+
+      <h4>Rendered element:</h4>
+
+      <ol>
+        <li>Phones</li>
+        <li>PCs</li>
+        <li>Pads</li>
+      </ol>
+    </section>
+  </section>
+  <!-- // TEXT ELEMENTS SECTION -->
+
+  <!-- COMBINED ELEMENTS SECTION // -->
+  <section id="combined_elements">
+    <div class="title_section">
+      <h2>Combined Elements</h2>
+    </div>
+
+    <section class="element">
+      <h3>Main Navigation</h3>
+
+      <h4>CSS selector:</h4>
+      <p>.header-menu, .header-logo</p>
+      <h4>Sample Code:</h4>
+      <code>
+        &lt;div class="header-logo"&gt;
+        &lt;div class="mobile-icon" onclick="toggleMenu()"&gt;&lt;a href=""&gt;&lt;i class="fa-solid fa-bars-staggered"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;
+        &lt;div&gt;&lt;a href="home.html"&gt;TeCycle&lt;/a&gt;&lt;/div&gt;
+        &lt;div&gt;&lt;a href="home.html"&gt;&lt;img src="images/logo.png"&gt;&lt;/a&gt;&lt;/div&gt;
+        &lt;div&gt;
+        &lt;a href="#"&gt;&lt;i class="fa-solid fa-magnifying-glass"&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;a href="#"&gt;&lt;i class="fa-solid fa-user"&gt;&lt;/i&gt;&lt;/a&gt;
+          &lt;a href="pages/checkout_info_page.html"&gt;&lt;i class="fa-solid fa-cart-shopping"&gt;&lt;/i&gt;&lt;/a&gt;
+          &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;a href="../home.html"&gt;HOME&lt;/a&gt;
+        &lt;a href="../pages/phone_list.html"&gt;Smart Phones&lt;/a&gt;
+        &lt;a href="pages/womenProducts.html"&gt;Pads&lt;/a&gt;
+        &lt;a href="pages/kidsProducts.html"&gt;Laptops&lt;/a&gt;
+        &lt;a href="pages/kidsProducts.html"&gt;Macs&lt;/a&gt;
+        &lt;a href="pages/kidsProducts.html"&gt;PCs&lt;/a&gt;
+        &lt;a href="pages/about.html"&gt;ABOUT US&lt;/a&gt;
+      </code>
+      <h4>Rendered element:</h4>
+      <div class="header-logo">
+        <div class="mobile-icon" onclick="toggleMenu()"><a href=""><i class="fa-solid fa-bars-staggered"></i></a></div>
+        <div><a href="home.html">TeCycle</a></div>
+        <div><a href="home.html"><img src="images/logo.png"></a></div>
+        <div>
+          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+          <!-- <a href="#">SIGN IN</a> -->
+          <a href="#"><i class="fa-solid fa-user"></i></a>
+          <a href="pages/checkout_info_page.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+      </div>
+      <div class="header-menu">
+        <nav>
+          <a href="#">HOME</a>
+          <a href="pages/phone_list.html">Smart Phones</a>
+          <a href="pages/womenProducts.html">Pads</a>
+          <a href="pages/kidsProducts.html">Laptops</a>
+          <a href="pages/kidsProducts.html">Macs</a>
+          <a href="pages/kidsProducts.html">PCs</a>
+          <a href="pages/about.html">ABOUT US</a>
+        </nav>
+      </div>
+    </section>
+
+    <section class="element" id="product_listing">
+      <!--main navigation-->
+      <h3>Product/Service Listing</h3>
+      <h4>CSS selector:</h4>
+      <p></p>
+      <h4>Sample Code:</h4>
+      <!-- <code></code> -->
+      <h4>Rendered element:</h4>
+
+      <section class="element" id="product_listing">
+
+        <section class="product_listing_brend">
+          <div class="product_listing_products">
+              <div class="product-card">
+                <div class="product-card-picture">
+                  <a href="">
+                    <div class="product-card-picture_1">
+                      <img src="images/14p.png" alt="picture about iPhones">
+                    </div>
+                  </a>
+                </div>
+                <div class="product-card-title"><a href="">Apple iPhone 14Pro Max | Gold</a></div>
+                <div class="product-card-price"><a href="m12su_product_detail.html"><del>CAD 1799.99</del> CAD 1499.99 </a></div>
+              </div>
+     
+              <div class="product-card">
+                <div class="product-card-picture">
+                  <a href="product_detail_mi12u.html">
+                    <div class="product-card-picture_2">
+                      <img src="images/m12u.png" alt="picture about Xiaomi Phones">
+                    </div>
+                  </a>
+                </div>
+                <div class="product-card-title"><a href="product_detail_mi12u.html">Xiaomi 12S Ultra | 12+256 | Gold</a></div>
+                <div class="product-card-price"><a href="product_detail_mi12u.html"><del>CAD 1399.99</del> CAD 999.99 </a></div>
+              </div>
+    
+              <div class="product-card">
+                <div class="product-card-picture">
+                  <a href="">
+                    <div class="product-card-picture_3">
+                      <img src="images/fold4.png" alt="picture about Samsung Phones">
+                    </div>
+                  </a>
+                </div>
+                <div class="product-card-title"><a href="">Samsung Galaxy Fold4 12+512 | Green</a></div>
+                <div class="product-card-price"><a href="m12su_product_detail.html"><del>CAD 2399.99</del> CAD 1599.99 </a></div>
+              </div>
+     
+              <div class="product-card">
+                <div class="product-card-picture">
+                  <a href="">
+                    <div class="product-card-picture_4">
+                      <img src="../images/fn2f.png" alt="picture about OPPO Phones">
+                    </div>
+                  </a>
+                </div>
+                <div class="product-card-title"><a href="">OPPO Find N2 Flip | Purple</a></div>
+                <div class="product-card-price"><a href="m12su_product_detail.html"><del>CAD 1099.99</del> CAD 799.99 </a></div>
+              </div>
+          </div>
+        </section>
+      </section>
+
+    </section>
+
+    <section class="element payformSection" id="checkout">
+      <h3>Payment Form</h3>
+
+      <div class="payform">
+        <div class="billingAddress">
+          <div class="PaymentTitle">Billing Address</div>
+          <div class="PaymentSection">Full Name</div>
+          <input type="text" class="PaymentSectionInput" placeholder="Steve Radio">
+          <div class="PaymentSection">Email</div>
+          <input type="text" class="PaymentSectionInput" placeholder="example@email.com">
+          <div class="PaymentSection">Address</div>
+          <input type="text" class="PaymentSectionInput" placeholder="1111-12345 Example Rd">
+          <div class="PaymentSection">City</div>
+          <input type="text" class="PaymentSectionInput" placeholder="City">
+
+          <div class="payformshort">
+            <div class="PaymentSection">
+              Province
+              <div>
+                <input type="text" class="PaymentSectionInput" placeholder="Province">
+              </div>
+            </div>
+            <div class="PaymentSection">
+              Postcode
+              <div>
+                <input type="text" class="PaymentSectionInput" placeholder="V3E1H3">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="payment">
+          <div class="PaymentTitle">Payment</div>
+          <div class="PaymentSection">Name On Card</div>
+          <input type="text" class="PaymentSectionInput" placeholder=" Steve Radio">
+          <div class="PaymentSection">Card Number</div>
+          <input type="text" class="PaymentSectionInput" placeholder="xxxx-xxxx-xxxx-xxxx">
+          <div class="PaymentSection">Exp Month</div>
+          <input type="text" class="PaymentSectionInput" placeholder="MM">
+          <div class="payformshort">
+            <div class="PaymentSection">
+              Exp Year
+              <div>
+                <input type="text" class="PaymentSectionInput" placeholder="YYYY">
+              </div>
+            </div>
+            <div class="PaymentSection">
+              CVV
+              <div>
+                <input type="text" class="PaymentSectionInput" placeholder="XXX">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="checkoutCart" id="#">
+
+        <div class="PaymentTitle">Subtotal</div>
+        <div class="checkoutitems">
+          <div class="firstitem">
+            <div class="checkoutCartName">Xiaomi 13 Ultra</div>
+            <div class="checkoutCartQuantity">
+              <input type="number" class="quantity" min="0" max="99" value="1">
+            </div>
+          </div>
+
+          <div class="checkoutCartPrice">$1399.99</div>
+
+          <div class="seconditem">
+            <div class="checkoutCartName">Xiaomi Free Buds pro</div>
+            <div class="checkoutCartQuantity">
+              <input type="number" class="quantity" min="0" max="99" value="1">
+            </div>
+          </div>
+
+          <div class="checkoutCartPrice">$399.99</div>
+        </div>
+        <!--choose quantity of product-->
+        <div class="checkoutCartSubtotal">$1799.98</div>
+      </div>
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+    <section>
+      <div>Footer</div>
+      <footer>
+        <div class="footer-menu">
+          <nav>
+            <div>
+              <h3>Purchesing Product</h3>
+              <a href="pages/phone_list.html">Smart Phones</a>
+              <a href="pages/womenProducts.html">Pads</a>
+              <a href="pages/kidsProducts.html">Laptops</a>
+              <a href="pages/kidsProducts.html">Macs</a>
+              <a href="pages/kidsProducts.html">PCs</a>
+            </div>
+            <div>
+              <h3>About TeCycle</h3>
+              <a href="pages/about.html">Contact Us</a>
+            </div>
+            <div>
+              <h3>Account Management</h3>
+              <a href="#">Sign In</a>
+              <a href="#">View Cart</a>
+              <a href="#">History Purchase</a>
+            </div>
+          </nav>
+        </div>
+    
+    
+        <div>
+          <p>Copyright © 2023 TeCycle. All Right Reserved.</p>
+        </div>
+      </footer>
+    </section>
+
+    <!-- // Design info-->
+    <section>
+      <div class="brand_component">
+        <h2>Assenble brand components</h2>
+      </div>
+      <div class="element">
+        <div class="demofont">
+          Fonts: Dziedzic, Łukasz. Designer. 2010. Lato,
+          https://fonts.goog424245le.com/specimen/Lato
+        </div>
+        <div class="font_26letter">
+          Examples of 26 letters of the font (including upper and lower case):
+        </div>
+        <div class="font_image">
+          <img src="images/26.png" alt="Fold4 image">
+        </div>
+      </div>
+
+      <section class="element">
+        <h3>About company</h3>
+        <div>
+          The company was many focus on second-hand electronic devices trade.
+          Our platform provides a convenient and efficient way for individuals to purchase used
+          smartphones, laptops, tablets and other electronic devices.
+          Although its a company selling old products, we still hoping to give a
+          sense of high-end to enhance our customers confidence to choose our
+          company. So we our web will be clean, simple but well-organized,
+          this can not only give sense of high-end, but also help users to use
+          our website much easier.
+        </div>
+        <br>
+        <div>
+          Our company was committed to deliver latest technolgy producets at lowest price. The site's target audience is
+          individuals looking to purchase used electronic devices. Like consumers who are on a limited
+          budget but need electronic devices, including students and young adults who are new to the work. It may also
+          be electronics
+          enthusiasts who are obsessed with older devices that are no longer available on the regular market.
+        </div>
+        <br>
+        <img src="images/webdemo.jpg" alt="webdemo">
+        <img src="images/web2.png" alt="webdemo">
+        <div>
+          We hoping to build a website like this
+        </div>
+      </section>
+
+      <section class="element">
+        <div class="demo">
+          <h3 class="demotopicname">Color scheme</h3>
+          <div class="demoblack">0,0,0, #000000</div>
+          <div class="demotitle">66,66,69, #424245</div>
+          <div class="democolorccc">204,204,204, #ccc</div>
+          <div class="demobackground">255,255,255, #FFFFFF</div>
+          <!-- <div class="democolorFF0000">255,0,0, #FF0000</div> -->
+          <div class="democolor054C45">5,76,69, #054C45</div>
+          <div class="democolor38978e">56,151,133, #38978e</div>
+        </div>
+      </section>
+    </section>
+
+    <section id="citations">
+      <div class="title_section">
+        <h2>Citations</h2>
+      </div>
+
+      <ul class="element">
+        <li>
+          Dziedzic, Łukasz. Designer. 2010. <strong>Lato [Font]</strong>.
+          Retrieved from
+          <a href="https://fonts.google.com/specimen/Lato">https://fonts.google.com/specimen/Lato</a>
+        </li>
+        <li>
+          Xiaomi 12S Ultra, 2022.
+          Retrieved from
+          <a href="https://www.mi.com/mi12s-ultra">https://www.mi.com/mi12s-ultra</a>
+        </li>
+        <li>
+          iPhone 14 Pro Series, 2022.
+          Retrieved from
+          <a href="https://www.apple.com/ca/iphone-14-pro/">https://www.apple.com/ca/iphone-14-pro/</a>
+        </li>
+        <li>
+          Samsung GalaxyZ Fold4, 2022.
+          Retrieved from
+          <a
+            href="https://www.samsung.com/ca/smartphones/galaxy-z-fold4/">https://www.samsung.com/ca/smartphones/galaxy-z-fold4/</a>
+        </li>
+        <li>
+          OPPO Find N2 Flip, 2022.
+          Retrieved from
+          <a
+            href="https://www.oppo.com/cn/smartphones/series-find-n/find-n2-flip/">https://www.oppo.com/cn/smartphones/series-find-n/find-n2-flip/</a>
+        </li>
+        <li>
+          About_Team Image. 2017. <strong>TuXingTianXia</strong>. Retrieved
+          from <a
+            href="https://www.photophoto.cn/sucai/25774952.html">https://www.photophoto.cn/sucai/25774952.html</a>.
+        </li>
+        <li>
+          Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved
+          from <a href="#">URL</a>.
+        </li>
+      </ul>
+    </section>
+  </section>
+</body>
+
+</html>
