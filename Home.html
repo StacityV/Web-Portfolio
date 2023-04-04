@@ -17,8 +17,6 @@
   <script src="https://kit.fontawesome.com/453e4b626a.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/text_scramble_style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-
-  <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -28,14 +26,17 @@
       <a href="Home.html">
         <img src="images/Logo_W.png" alt="logo_image">
       </a>
+      <div class="burger_menu">
+        <div class="mobile-icon" onclick="toggleMenu()"><i class="fa-solid fa-bars-staggered"></i></div>
+      </div>
     </div>
     <div class="navigation">
       <nav>
         <ul>
           <li><span>01.</span> <a href="" class="text_link_underline_nav text_link_animation_spacing">HOME</a></li>
-          <li><span>02.</span> <a href="#my_info" class="text_link_underline_nav text_link_animation_spacing">ABOUT</a></li>
-          <li><span>03.</span> <a href="#project" class="text_link_underline_nav text_link_animation_spacing">PROJECTS</a></li>
-          <li><span>04.</span> <a href="" class="text_link_underline_nav text_link_animation_spacing">CONTACT</a></li>
+          <li><span>02.</span> <a href="#my_info" class="text_link_underline_nav text_link_animation_spacing">BIO</a></li>
+          <li><span>03.</span> <a href="pages/project_1.html" class="text_link_underline_nav text_link_animation_spacing">PROJECT1</a></li>
+          <li><span>04.</span> <a href="pages/project_2.html" class="text_link_underline_nav text_link_animation_spacing">PROJECT2</a></li>
         </ul>
       </nav>
       <!-- <div><a href="" class="common_btn resume_btn">Resume</a></div> -->
@@ -92,7 +93,7 @@
         </div>
         <div class="right">
           <a href="pages/about_me.html">
-            <div class="card" data-aos="fade-up" data-aos-duration="2000">
+            <div class="card description_image" data-aos="fade-up" data-aos-duration="2000">
               <img src="images/photo/bio_home.png" alt="this is my selfie">
             </div>
           </a>
@@ -104,14 +105,14 @@
       <h2><span>02.</span><a href="pages/project_1.html" class="text_link_underline_h2 text_link_animation"> Project 1:
           Whack a Mole</a></h2>
       <div class="my_info_detail">
-        <div class="left">
+        <div class="right">
           <a href="pages/project_1.html">
-            <div class="card" data-aos="fade-up" data-aos-duration="2000">
-              <img src="images/project_1/iso_view.png" alt="this is my selfie">
+            <div class="card description_image" data-aos="fade-up" data-aos-duration="2000">
+              <img src="images/project_1/iso_view.png" alt="project 1">
             </div>
           </a>
         </div>
-        <div class="right">
+        <div class="left">
           <p>
             This project is a spatial design project from IAT 106. In this project, I designed a hand holding on a box,
             the box have a ball and the band keep managed to tipping at the ball. Yet depending on the mechanism of a
@@ -143,10 +144,10 @@
     </section>
 
     <section class="my_info content_font" data-aos="fade-up" data-aos-duration="1500" id="project">
-      <h2><span>03.</span><a href="pages/project_1.html" class="text_link_underline_h2 text_link_animation"> Project 1:
-          Whack a Mole</a></h2>
+      <h2><span>03.</span><a href="pages/project_2.html" class="text_link_underline_h2 text_link_animation"> Project 2:
+          屏, PING</a></h2>
       <div class="my_info_detail">
-        <div class="right">
+        <div class="left">
           <p>
             This project is a spatial design project from IAT 106. In this project, I designed a hand holding on a box,
             the box have a ball and the band keep managed to tipping at the ball. Yet depending on the mechanism of a
@@ -168,7 +169,7 @@
               <ul>
                 <li>&gt; <a href="pages/project_2.html#step1" class="text_link_underline text_link_animation_p ul_in_p"> Step 01.</a></li>
                 <li>&gt; <a href="pages/project_2.html#step2" class="text_link_underline text_link_animation_p ul_in_p"> Step 02.</a></li>
-                <li>&gt; <a href="#" class="text_link_underline text_link_animation_p"> Step 03.</a></li>
+                <li>&gt; <a href="pages/project_2.html#step3" class="text_link_underline text_link_animation_p ul_in_p"> Step 03.</a></li>
               </ul>
               <ul>
                 <li>&gt; <a href="#" class="text_link_underline text_link_animation_p ul_in_p"> Step 04.</a></li>
@@ -179,10 +180,10 @@
           </div>
 
         </div>  
-        <div class="left">
+        <div class="right">
           <a href="pages/project_1.html">
-            <div class="card" data-aos="fade-up" data-aos-duration="2000">
-              <img src="images/project_1/iso_view.png" alt="this is my selfie">
+            <div class="card description_image" data-aos="fade-up" data-aos-duration="2000">
+              <img src="images/project_2/home_preview_detail_image.png" alt="project 2">
             </div>
           </a>
         </div>
@@ -228,9 +229,9 @@
 </body>
 
 <!-- particles background -->
-<script src='js/background/particles.min.js'></script>
-<script src='js/background/stats.js'></script>
-<script src="js/background/script.js"></script>
+<!-- <script src='js/background/particles.min.js'></script> -->
+<!-- <script src='js/background/stats.js'></script> -->
+<!-- <script src="js/background/script.js"></script> -->
 
 <!-- maigc card -->
 <script src="js/magic_card/magic_card.js"></script>
@@ -243,5 +244,7 @@
 <script>
   AOS.init();
 </script>
+
+<script src="js/general.js"></script>
 
 </html>

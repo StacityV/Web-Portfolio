@@ -29,6 +29,7 @@ p {
     line-height: 1.5;
 }
 
+
 a.text_link_underline_nav {
     position: relative;
     color: #fff;
@@ -60,9 +61,10 @@ a.text_link_underline:after {
     width: 0;
     height: 1.4rem;
     top: 0;
-    left: 1rem;
+    left: 0;
     border-bottom: 1px solid #87EBCF;
     transition: width 0.5s;
+    
 }
 
 a.text_link_underline:hover:after,
@@ -106,6 +108,10 @@ a.common_btn {
 
 .navigation>div:nth-of-type(1) {
     padding-top: 0.8rem;
+}
+
+.burger_menu .mobile-icon{
+    display: none;
 }
 
 ul {
@@ -235,12 +241,54 @@ img {
 
     header nav ul {
         width: 100%;
-        border: 1px solid green;
+        /* border: 1px solid green; */
     }
 
     header .navigation li {
         display: block;
     }
+
+    .my_info_detail {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .my_info_detail .left {
+        /* border: 1px solid red; */
+        width: 100%;
+        order: 2;
+    }
+
+    /* .left *{
+        border: 1px solid green;
+    } */
+
+    .my_info_detail .right {
+        width: 100%;
+        order: 1;
+        text-align: center;
+    }
+
+    .my_info_detail .right img {
+        width: 80%;
+        /* min-width: 320px; */
+    }
+
+    .navigation {
+        display: none;
+        /* border: 1px solid red; */
+        /* height:100vh; */
+    }
+
+    .header-logo .mobile-icon {
+        display: block;
+    }
+
+    .header-menu a{
+        display: block;
+        /* text-align: left; */
+    }
+    
 }
 
 /* section display */
@@ -257,7 +305,7 @@ img {
 }
 
 .my_info {
-    height: 65vh;
+    /* height: 65vh; */
     text-transform: none;
 }
 
@@ -277,13 +325,13 @@ img {
     font-size: 1rem;
 }
 
-#my_info .left {
+/* #my_info .left {
     width: 65%;
 }
 
 #my_info .right {
     width: 35%;
-}
+} */
 
 
 .content_font {
@@ -292,29 +340,6 @@ img {
     line-height: normal;
 }
 
-
-@media screen and (max-width:800px) {
-    .amy_info_detail {
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    #my_info .left {
-        width: 100%;
-        order: 2;
-    }
-
-    #my_info .right {
-        width: 100%;
-        order: 1;
-        text-align: center;
-    }
-
-    #my_info .right img {
-        width: 50%;
-        min-width: 320px;
-    }
-}
 
 /* contact */
 .contact_section {
@@ -354,7 +379,15 @@ img {
 
 .fa-brands {
     cursor: pointer;
+    padding: 0 0.75rem;
+    transition: color 1s, font-size 0.5s;
 }
+
+.fa-brands:hover, .fa-brands:focus{
+    color: #87EBCF;
+    font-size: 2.5rem;
+}
+
 
 
 /* footer part start */

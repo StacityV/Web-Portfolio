@@ -74,10 +74,27 @@ a.checkout_btn:focus {
     color: #2a2a2b;
 }
 
+.right{
+    width: 100%;
+    /* border: 1px solid blue; */
+    text-align: center;
+}
+
+.right a{
+    display: block;
+}
+
+.description_image{
+    /* background-color: aqua; */
+}
+
 
 @media screen and (max-width:800px) {
     h1 {
         font-size: 6vw;
+    }
+    .my_info_detail{
+        display: block;
     }
 }
 
@@ -85,5 +102,10 @@ a.checkout_btn:focus {
     h1 {
         font-size: 2rem;
     }
+}
+
+
+img{
+    width: 95%;
 }
 
