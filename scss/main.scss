@@ -1,0 +1,444 @@
+$color_1: #fff;
+$color_2: white;
+$color_3: #4F68FA;
+$color_4: rebeccapurple;
+$color_5: #D8DEFE;
+$color_6: #424245;
+$color_7: #222222;
+$color_8: black;
+$color_9: #ffffff;
+$font-family_1: Latosans-serif;
+$background-color_1: #EEE;
+$background-color_2: rgb(0, 0, 0);
+$background-color_3: #222222;
+$background-color_4: #f2f2f2;
+$background-color_5: #fff;
+$background-color_6: #424245;
+$background-color_7: black;
+$background-color_8: #ccc;
+$background-color_9: #FF0000;
+$background-color_10: #054C45;
+$background-color_11: #38978e;
+
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+/* change font */
+@font-face {
+	font-family: myFirstFont;
+	src: url("../fonts/Lato/Lato-Black.ttf");
+}
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+/* Styling for the navigation button */
+/*    input styling    */
+/* --------------------------heading nav tag----------------------*/
+/* ------------------product list-------------------------*/
+/* .Specific{
+  display: flex;
+  justify-content:space-around;
+  gap: 1rem;
+} */
+/* 
+  TEXT ELEMENTS -------------------
+*/
+/* -------------------Payment form --------------------------------------*/
+/* .supportCardImage{
+  
+} */
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+/* Assenble brand components */
+/* .demo{
+  background-color: #000;
+} */
+* {
+	box-sizing: border-box;
+}
+html {
+	font-size: 12pt;
+}
+body {
+	font-family: $font-family_1;
+	padding: 2rem;
+}
+.element {
+	padding-bottom: 2rem;
+	max-width: 1500px;
+	margin: auto;
+	a {
+		text-decoration: none;
+	}
+}
+h1 {
+	font-size: 2rem;
+	color: $color_1;
+}
+h2 {
+	font-size: 2rem;
+	margin-top: 6rem;
+}
+h3 {
+	font-style: italic;
+	margin-top: 1rem;
+}
+.style_heading {
+	h3 {
+		font-style: normal;
+		font-size: 1.5rem;
+	}
+}
+h4 {
+	margin-bottom: 0.25rem;
+}
+p {
+	margin-top: 0;
+	width: 15rem;
+}
+nav {
+	a {
+		&:hover {
+			text-decoration: none;
+		}
+		&:focus {
+			text-decoration: none;
+		}
+	}
+}
+.topNav {
+	align-items: flex-end;
+}
+code {
+	background-color: $background-color_1;
+	padding: 0.5rem;
+	display: block;
+}
+.common-button {
+	&:hover {
+		background-color: $background-color_2;
+		color: $color_2;
+		border-radius: 20px;
+	}
+	&:focus {
+		background-color: $background-color_2;
+		color: $color_2;
+		border-radius: 20px;
+	}
+}
+section {
+	margin: 5rem 0;
+}
+.in-text-link {
+	color: $color_1;
+	text-decoration: none;
+	&:hover {
+		color: $color_3;
+		text-decoration: underline;
+	}
+	&:focus {
+		text-decoration: underline;
+	}
+}
+.image-as-link {
+	&:hover {
+		color: $color_4;
+	}
+	&:focus {
+		color: $color_3;
+	}
+}
+.userName {
+	font-size: 1rem;
+	margin-top: 6rem;
+}
+form {
+	border: 0.5rem solid #FF0000;
+	border-radius: 1rem;
+	overflow: hidden;
+	width: 50rem;
+}
+.topnavtag {
+	display: flex;
+	background-color: $background-color_3;
+	border-bottom: 0.1rem solid #222222;
+}
+.navtag {
+	display: flex;
+	justify-content: flex-end;
+}
+.navbutton {
+	margin-left: 2rem;
+	padding-top: 0.5rem;
+}
+.h1title {
+	display: flex;
+	justify-content: flex-start;
+}
+.container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 1.3rem;
+	>div {
+		&:nth-of-type(1) {
+			background-image: url("../images/fold4.png");
+			background-repeat: no-repeat;
+			background-size: cover;
+			display: flex;
+			justify-content: center;
+			align-items: flex-end;
+			font-size: 1.5rem;
+			flex: 1;
+			flex-basis: 25%;
+			height: 35vw;
+			border-radius: 1rem;
+		}
+		&:nth-of-type(2) {
+			background-image: url("../images/m12u.png");
+			background-repeat: no-repeat;
+			background-size: cover;
+			display: flex;
+			justify-content: center;
+			align-items: flex-end;
+			font-size: 1.5rem;
+			flex: 1;
+			flex-basis: 25%;
+			height: 35vw;
+			border-radius: 1rem;
+		}
+		&:nth-of-type(3) {
+			background-image: url("../images/14p.png");
+			background-repeat: no-repeat;
+			background-size: cover;
+			display: flex;
+			justify-content: center;
+			align-items: flex-end;
+			font-size: 1.5rem;
+			flex: 1;
+			flex-basis: 25%;
+			height: 35vw;
+			border-radius: 1rem;
+		}
+		&:nth-of-type(4) {
+			background-image: url("../images/fn2f.png");
+			background-repeat: no-repeat;
+			background-size: cover;
+			display: flex;
+			justify-content: center;
+			align-items: flex-end;
+			font-size: 1.5rem;
+			flex: 1;
+			flex-basis: 25%;
+			height: 35vw;
+			border-radius: 1rem;
+		}
+	}
+	a {
+		color: $color_2;
+		padding: 5rem;
+		&:hover {
+			color: $color_5;
+			text-decoration: underline;
+			text-align: center;
+		}
+	}
+}
+.zfold4 {
+	align-items: center;
+	justify-content: space-around;
+	flex-basis: 25%;
+	height: 30rem;
+	width: 25rem;
+	border-radius: 0.1rem;
+}
+.mi12u {
+	align-items: center;
+	justify-content: space-around;
+	flex-basis: 25%;
+	height: 30rem;
+	width: 25rem;
+	border-radius: 0.1rem;
+}
+.iphone14 {
+	align-items: center;
+	justify-content: space-around;
+	flex-basis: 25%;
+	height: 30rem;
+	width: 25rem;
+	border-radius: 0.1rem;
+}
+.findn2flip {
+	align-items: center;
+	justify-content: space-around;
+	flex-basis: 25%;
+	height: 30rem;
+	width: 25rem;
+	border-radius: 0.1rem;
+}
+.heading_h2 {
+	h2 {
+		color: $color_6;
+		margin: 0rem;
+	}
+}
+.heading_h3 {
+	h3 {
+		font-size: 1.25rem;
+	}
+}
+.payform {
+	display: flex;
+	justify-content: center;
+	margin-top: 6rem;
+	gap: 5rem;
+	max-width: 60rem;
+	margin: auto;
+}
+.billingAddress {
+	border-radius: 1.5rem;
+	background-color: $background-color_4;
+	padding: 0.5rem 1.75rem 1.05rem 1.75rem;
+	border: 0.1rem solid lightgrey;
+	border-radius: 0.5rem;
+	flex: 1;
+}
+.payment {
+	border-radius: 1.5rem;
+	background-color: $background-color_4;
+	padding: 0.5rem 1.75rem 1.05rem 1.75rem;
+	border: 0.1rem solid lightgrey;
+	border-radius: 0.5rem;
+	flex: 1;
+}
+.PaymentTitle {
+	font-size: 1.7rem;
+	padding: 2rem 4rem 5rem 0rem;
+	color: $color_7;
+}
+.payformshort {
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+	div {
+		flex: 1;
+	}
+	input[type=text] {
+		width: 100%;
+	}
+}
+.checkoutCart {
+	margin-top: 1rem;
+}
+.checkoutCartSubtotal {
+	margin-top: 1.5rem;
+	justify-content: space-around;
+	max-width: 850px;
+	margin: auto;
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 2.5rem;
+	border-top: 0.12rem solid #222222;
+	padding-top: 1.25rem;
+	font-size: 1.5rem;
+}
+.checkoutitems {
+	justify-content: space-around;
+	max-width: 850px;
+	margin: auto;
+}
+.firstitem {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2.5rem;
+}
+.seconditem {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2.5rem;
+}
+.checkoutCartPrice {
+	display: flex;
+	justify-content: flex-end;
+	font-size: 1rem;
+	margin-top: 2.5rem;
+}
+.checkoutCartName {
+	font-size: 1.5rem;
+}
+.submit {
+	display: flex;
+	justify-content: flex-end;
+	border: 2rem;
+	padding-top: 3rem;
+	max-width: 850px;
+	margin: auto;
+}
+.submitbtn {
+	margin-left: 2rem;
+	font-size: 1.2rem;
+	width: 15%;
+	height: 20%;
+}
+.title_section {
+	h2 {
+		color: $color_8;
+	}
+}
+.demofont {
+	font-family: $font-family_1;
+}
+.demobackground {
+	background-color: $background-color_5;
+}
+.demotitle {
+	color: $color_1;
+	background-color: $background-color_6;
+}
+.brand_component {
+	h2 {
+		color: $color_6;
+	}
+}
+.font_26letter {
+	margin-top: 1rem;
+}
+.font_image {
+	img {
+		margin-top: 1rem;
+		width: 70%;
+		min-width: 25rem;
+	}
+}
+.demoblack {
+	color: $color_9;
+	background-color: $background-color_7;
+}
+.democolorccc {
+	background-color: $background-color_8;
+}
+.democolorFF0000 {
+	color: $color_9;
+	background-color: $background-color_9;
+}
+.democolor054C45 {
+	color: $color_9;
+	background-color: $background-color_10;
+}
+.democolor38978e {
+	color: $color_9;
+	background-color: $background-color_11;
+}
+@media screen and (max-width:850px) {
+	.payform {
+		flex-direction: column;
+	}
+	.navtag {
+		flex-direction: column;
+	}
+	.topnavtag {
+		flex-direction: column;
+	}
+}

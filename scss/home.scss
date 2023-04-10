@@ -1,0 +1,131 @@
+$color_1: white;
+$color_2: #D4504E;
+$color_3: #87EBCF;
+$color_4: #2a2a2b;
+$color_5: #fff;
+$font-family_1: "Cormorant Garamond", serif;
+$background-color_1: rgb(97, 97, 97);
+$background-color_2: rgb(255, 255, 255);
+
+@import "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap";
+@font-face {
+	font-family: 'Ubuntu';
+	src: url("../font/Ubuntu/Ubuntu-Regular.ttf");
+}
+/* *{
+    border: 1px solid red;
+} */
+/* me section start */
+h1 {
+	font-family: $font-family_1;
+	font-size: 4rem;
+	font-weight: bold;
+	color: $color_1;
+	letter-spacing: 0.7rem;
+}
+h2 {
+	font-size: 1.75rem;
+}
+main {
+	max-width: 1200px;
+	margin: auto;
+	padding: 2rem;
+}
+.about_me {
+	height: 85vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	div {
+		margin-top: 4rem;
+		&:nth-of-type(1) {
+			font-weight: 400;
+			max-width: 600px;
+			font-size: 1rem;
+			span {
+				color: $color_2;
+			}
+		}
+	}
+	p {
+		a {
+			color: $color_3;
+		}
+	}
+}
+header {
+	p {
+		max-width: 600px;
+	}
+}
+.checkout_btn {
+	border: 0.1rem solid rgb(255, 255, 255);
+	background-color: $background-color_1;
+	color: $color_1;
+}
+a.checkout_btn {
+	&:hover {
+		background-color: $background-color_2;
+		color: $color_4;
+	}
+	&:focus {
+		background-color: $background-color_2;
+		color: $color_4;
+	}
+}
+.right {
+	width: 100%;
+	text-align: center;
+	a {
+		display: block;
+	}
+}
+.send_mail {
+	color: $color_5;
+	transition: color 1s, font-size 0.5s;
+}
+a.send_mail {
+	&:hover {
+		color: $color_3;
+		font-size: 1rem;
+	}
+	&:focus {
+		color: $color_3;
+		font-size: 1rem;
+	}
+}
+.buttom_reference {
+	color: $color_5;
+	transition: color 1s;
+}
+a.buttom_reference {
+	&:hover {
+		color: $color_3;
+	}
+	&:focus {
+		color: $color_3;
+	}
+}
+footer {
+	span {
+		color: $color_3;
+	}
+}
+img {
+	width: 95%;
+}
+@media screen and (max-width:800px) {
+	h1 {
+		font-size: 6vw;
+	}
+	.my_info_detail {
+		display: block;
+	}
+}
+@media screen and (max-width:500px) {
+	h1 {
+		font-size: 2rem;
+	}
+}

@@ -1,14 +1,16 @@
-@font-face {
-    font-family: myFirstFont;
-    src: url("../fonts/Lato/Lato-Black.ttf")
-}
-
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
 
 @font-face {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: myFirstFont;
+    src: url("../fonts/Lato/Lato-Black.ttf")
+}
+
+
+
+@font-face {
+    font-family: 'Ubuntu';
     src: url("../font/Ubuntu/Ubuntu-Regular.ttf");
 }
 

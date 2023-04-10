@@ -1,0 +1,154 @@
+$color_1: #fff;
+$color_2: #ffF;
+$color_3: #dddddd;
+$color_4: #87EBCF;
+$font-family_1: 'Roboto Mono', monospace;
+$font-family_2: "Cormorant Garamond", serif;
+$font-family_3: 'Montserrat', sans-serif;
+$background-color_1: #fff;
+
+@import "https://fonts.googleapis.com/css?family=Roboto+Mono:100";
+@font-face {
+	font-family: 'Ubuntu';
+	src: url("../font/Ubuntu/Ubuntu-Regular.ttf");
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url("../font/Montserrat/static/Montserrat-Regular.ttf");
+}
+/* aProduct container */
+/* .aProduct-container, .aProduct-information, .payform{
+    width: 70vw;
+} */
+/* information section start*/
+html {
+	font-family: $font-family_1;
+	background: #212121;
+	height: 100%;
+}
+body {
+	font-family: $font-family_1;
+	background: #212121;
+	height: 100%;
+	color: $color_1;
+	font-size: 0.8rem;
+}
+main {
+	max-width: 1200px;
+	margin: auto;
+	padding: 1rem;
+	max-width: 1500px;
+	margin: auto;
+}
+h1 {
+	font-family: $font-family_2;
+	font-size: 3rem;
+	color: $color_2;
+}
+h2 {
+	>span {
+		font-family: $font-family_1;
+		display: block;
+		color: $color_3;
+		font-size: 1rem;
+		margin: 0.3rem 0;
+	}
+	color: $color_4;
+	padding: 0.2rem 0;
+	font-size: 1.5rem;
+}
+h3 {
+	font-family: $font-family_3;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+p {
+	font-family: $font-family_3;
+	font-weight: 400;
+	font-size: 1rem;
+}
+.aProduct-container {
+	display: flex;
+	gap: 2rem;
+	padding-top: 1rem;
+	img {
+		width: 100%;
+	}
+}
+.aProduct-images {
+	width: 60%;
+	display: flex;
+	gap: 0.5rem;
+	margin-top: 1.5rem;
+}
+.product_detail {
+	width: 38%;
+}
+.nail-images {
+	display: flex;
+	flex-direction: column;
+	gap: 0.65rem;
+	&:hover {
+		cursor: pointer;
+	}
+}
+.nail_images_detail {
+	background-color: $background-color_1;
+}
+.nail_image_detail_1 {
+	border-top-left-radius: 0.5rem;
+}
+.nail_image_detail_5 {
+	border-bottom-left-radius: 0.5rem;
+}
+.original-size-image {
+	border-top-right-radius: 0.5rem;
+	border-bottom-right-radius: 0.5rem;
+}
+.aProduct-information {
+	padding-left: 2rem;
+	padding-top: 1rem;
+	width: 40%;
+	p {
+		font-size: 1rem;
+	}
+}
+.step_image {
+	border-radius: 0.5rem;
+	background-color: $background-color_1;
+}
+.steps {
+	margin-top: 7rem;
+}
+@media screen and (max-width:850px) {
+	.aProduct-container {
+		flex-direction: column;
+	}
+	.aProduct-images {
+		width: 100%;
+		flex-direction: column-reverse;
+		.nail-images {
+			flex-direction: row;
+		}
+	}
+	.product_detail {
+		width: 100%;
+	}
+	.aProduct-information {
+		width: 100%;
+		padding-left: 0rem;
+	}
+	.nail-images {
+		overflow-x: auto;
+	}
+	.nail_image_detail_1 {
+		border-top-left-radius: 0;
+	}
+	.nail_image_detail_5 {
+		border-top-left-radius: 0;
+	}
+	.original-size-image {
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+}

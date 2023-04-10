@@ -2,12 +2,12 @@
 
 
 @font-face {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu';
     src: url("../font/Ubuntu/Ubuntu-Regular.ttf");
 }
 
 @font-face {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     src: url("../font/Montserrat/static/Montserrat-Regular.ttf");
 }
 

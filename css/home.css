@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
 
 @font-face {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu';
     src: url("../font/Ubuntu/Ubuntu-Regular.ttf");
 }
 
@@ -87,6 +87,31 @@ a.checkout_btn:focus {
 .description_image{
     /* background-color: aqua; */
 }
+
+.send_mail{
+    color: #fff;
+    transition: color 1s, font-size 0.5s;
+}
+a.send_mail:hover,
+a.send_mail:focus {
+    color: #87EBCF;
+    font-size: 1rem;
+}
+
+.buttom_reference{
+    color: #fff;
+    transition: color 1s;
+}
+
+a.buttom_reference:hover,
+a.buttom_reference:focus {
+    color: #87EBCF;
+}
+
+footer span{
+    color: #87EBCF;
+}
+
 
 
 @media screen and (max-width:800px) {
