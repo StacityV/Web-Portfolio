@@ -373,11 +373,16 @@ img {
 
 .contact_icon {
     list-style: none;
+
+}
+
+.icon_cutomise{
     padding-top: 4rem;
     font-size: 1.5rem;
 }
 
 .fa-brands {
+    color: #fff;
     cursor: pointer;
     padding: 0 0.75rem;
     transition: color 1s, font-size 0.5s;
